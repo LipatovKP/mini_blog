@@ -1,5 +1,5 @@
 <?
-require_once '/templates/config.php';
+require_once 'templates/config.php';
 
 $id = intval($_GET['id']);
 $sql = "SELECT title, content, created_at FROM posts WHERE id = $id";

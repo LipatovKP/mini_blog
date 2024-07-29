@@ -1,5 +1,5 @@
 <?
-require_once '/templates/config.php';
+require_once 'templates/config.php';
 
 $sql = "SELECT id, title, created_at FROM posts ORDER BY created_at DESC";
 $result = $mysqli->query($sql);

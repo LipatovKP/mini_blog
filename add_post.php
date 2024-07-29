@@ -1,5 +1,5 @@
 <?
-require_once '/templates/config.php';
+require_once 'templates/config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $title = $mysqli->real_escape_string($_POST['title']);
